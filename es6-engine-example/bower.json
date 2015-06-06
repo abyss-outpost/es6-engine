@@ -1,0 +1,15 @@
+{
+  "name"          : "es6-engine",
+  "version"       : "0.1",
+  "main"          : "public/index.html",
+  "ignore"        : [
+                      "**/.*",
+                      "libs"
+                    ],
+  "dependencies"  : {
+                      "requirejs"         : "latest",
+                      "engine"            : "http://github.com/Famous/engine.git#master",
+                      "systemjs"          : "latest",
+                      "es6-module-loader" : "latest"
+                    }
+}
